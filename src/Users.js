@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import Userform from "./UserForm";
-import UserTable from "./UserTable";
+import UsersTable from "./UsersTable";
  
 
 const users= [
@@ -24,7 +24,7 @@ const Users = () => {
     return (
         <Box>
          <Userform />
-        <UserTable rows ={users}/>
+        <UsersTable rows ={users}/>
         </Box>
         
     );
