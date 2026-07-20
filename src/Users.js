@@ -22,7 +22,12 @@ const users= [
 
 const Users = () => {
     return (
-        <Box>
+        <Box
+        sx={{
+            width: 'calc(100%-100px)',
+            margin: 'auto',
+            marginTop: '20px'
+        }}>
          <Userform />
         <UsersTable rows ={users}/>
         </Box>
